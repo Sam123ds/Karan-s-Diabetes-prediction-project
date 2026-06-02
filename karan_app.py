@@ -9,7 +9,7 @@ BloodPressure = st.number_input("Enter your BloodPressure",69,120,80)
 SkinThickness = st.number_input("Enter SkinThickness: ",10,100,25)
 Insulin = st.number_input("Enter Insulin",100,850,150)
 BMI = st.number_input("Enter BMI",22,67,25)
-DiabetesPedigreeFunction = st.number_input("Enter your DiabetesPedigreeFunction",0.078,2.42,1)
+DiabetesPedigreeFunction = st.number_input("Enter your DiabetesPedigreeFunction",0.078,2.42,1.00)
 Age = st.number_input("Enter Age: ",21,81,70)
 
 if st.button("Press to get your prediction"):
