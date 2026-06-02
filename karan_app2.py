@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import joblib
 
-ss = joblib.load("Karan_scaler.joblib")
+ss = joblib.load("scaler.joblib")
 Karan_model = joblib.load("Karan_model.joblib")
 
 Pregnancies = st.number_input("Enter No. of Pregnancies",0,17,1)
