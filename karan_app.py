@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import numpy as an array
+import numpy as np
 import joblib
 
 Pregnancies = st.number_input("Enter No. of Pregnancies",0,17,1)
