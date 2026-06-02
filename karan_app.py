@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import joblib
 
+ss = joblib.load("Karan_scaler.joblib")
+Karan_model = joblib.load("Karan_model.joblib")
+
 Pregnancies = st.number_input("Enter No. of Pregnancies",0,17,1)
 Glucose = st.number_input("Enter Glucose level",0,17,5)
 BloodPressure = st.number_input("Enter your BloodPressure",69,120,80)
